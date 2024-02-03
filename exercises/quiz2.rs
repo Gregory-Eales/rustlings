@@ -51,7 +51,7 @@ mod my_module {
                 Command::Trim => output.push(string.trim().into()),
                 Command::Append(x) => output.push(string.to_owned() + &"bar".repeat(*x)),
             }
-
+            
 
         }
         output
